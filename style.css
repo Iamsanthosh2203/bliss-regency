@@ -182,4 +182,15 @@ button .fas {
     grid-column-start: 1;
     grid-column-end: 4;
   }
+  .welcome {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.253),
+      rgba(0, 0, 0, 0.253)
+    ),
+    url("assests/ALIS5798\ 1.png");
+  background-position: center;
+  overflow: hidden;
+    background-size:cover;
+  }
 }
