@@ -22,6 +22,11 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
   <body>
     <!-- Header Section -->
     <header class="h-auto text-white bg-fixed w-full">
@@ -44,7 +49,7 @@
             >SERVICES</a
           >
           <a href="#">RESTAURANT</a>
-          <a href="#">CONTACT</a>
+          <a href="#contact">CONTACT</a>
         </div>
         <button
           onclick="window.location.href='booking.html'"
@@ -123,7 +128,7 @@
         >
           <img src="assests/king-bed.png" class="w-8 h-8" alt="" />
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h2 class="text-2xl old-font">King Size Bed</h2>
         </div>
         <div
           id="spa"
@@ -131,7 +136,7 @@
         >
           <img src="assests/washing.png" class="w-8 h-8" alt="" />
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h2 class="text-2xl old-font">Laundry Services</h2>
         </div>
         <div
           id="bar"
@@ -139,7 +144,7 @@
         >
           <i class="fa-solid fa-couch w-8 h-8 text-xl"></i>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h2 class="text-2xl old-font">Personal Couch</h2>
         </div>
       </div>
 
@@ -150,7 +155,7 @@
         >
           <i class="fa-solid fa-wifi w-8 h-8 text-xl"></i>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h2 class="text-2xl old-font">Free Wi-Fi</h2>
         </div>
         <div
           id="dinner"
@@ -158,7 +163,7 @@
         >
           <img src="assests/tv.png" class="w-8 h-8" alt="" />
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h2 class="text-2xl old-font">Flat Screen TV</h2>
         </div>
         <div
           id="grill"
@@ -166,7 +171,7 @@
         >
           <img src="assests/fridge.png" class="w-8 h-8" alt="" />
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h2 class="text-2xl old-font">Refrigerator</h2>
         </div>
       </div>
       <!-- Window Fishing -->
@@ -175,7 +180,7 @@
         class="h-[80%] w-[80%] none bg-black text-white top-[10%] absolute p-6"
       >
         <div class="flex justify-between">
-          <h3 class="text-4xl old-font">Fishing</h3>
+          <h3 class="text-4xl old-font">King Size Bed</h3>
           <i id="btnFishing" class="fa-solid fa-xmark text-3xl"></i>
         </div>
 
@@ -192,7 +197,7 @@
         class="h-[80%] w-[80%] none bg-black text-white top-[10%] absolute p-6"
       >
         <div class="flex justify-between">
-          <h3 class="text-4xl old-font">Spa</h3>
+          <h3 class="text-4xl old-font">Laundry Services</h3>
           <i id="btnSpa" class="fa-solid fa-xmark text-3xl"></i>
         </div>
 
@@ -209,7 +214,7 @@
         class="h-[80%] w-[80%] none bg-black text-white top-[10%] absolute p-6"
       >
         <div class="flex justify-between">
-          <h3 class="text-4xl old-font">Bar</h3>
+          <h3 class="text-4xl old-font">Personal Couch</h3>
           <i id="btnBar" class="fa-solid fa-xmark text-3xl"></i>
         </div>
 
@@ -226,7 +231,7 @@
         class="h-[80%] w-[80%] none bg-black text-white top-[10%] absolute p-6"
       >
         <div class="flex justify-between">
-          <h3 class="text-4xl old-font">Swimming</h3>
+          <h3 class="text-4xl old-font">Free Wi-FI</h3>
           <i id="btnSwimming" class="fa-solid fa-xmark text-3xl"></i>
         </div>
 
@@ -243,7 +248,7 @@
         class="h-[80%] w-[80%] none top-[10%] absolute p-6 bg-black text-white"
       >
         <div class="flex justify-between">
-          <h3 class="text-4xl old-font">Dinner</h3>
+          <h3 class="text-4xl old-font">Flat Screen TV</h3>
           <i id="btnDinner" class="fa-solid fa-xmark text-3xl"></i>
         </div>
 
@@ -260,7 +265,7 @@
         class="h-[80%] bg-black text-white w-[80%] none top-[10%] absolute p-6"
       >
         <div class="flex justify-between">
-          <h3 class="text-4xl old-font">Barbequee</h3>
+          <h3 class="text-4xl old-font">Refrigerator</h3>
           <i id="btnGrill" class="fa-solid fa-xmark text-3xl"></i>
         </div>
 
@@ -297,7 +302,7 @@
       </div>
 
       <div class="flex flex-col my-4 md:my-0 w-full md:w-[10%]">
-        <p class="old-font text-xl font-bold">Contact</p>
+        <p id="contact" class="old-font text-xl font-bold">Contact</p>
         <p class="ibm-font">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>

@@ -22,6 +22,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body>
     <!-- Header Section -->
@@ -43,7 +48,7 @@
           <a href="rooms.html" class="underline underline-offset-8">ROOMS</a>
           <a href="services.html">SERVICES</a>
           <a href="#">RESTAURANT</a>
-          <a href="#">CONTACT</a>
+          <a href="#contact">CONTACT</a>
         </div>
         <button
           onclick="window.location.href='booking.html'"
@@ -334,7 +339,7 @@
       </div>
 
       <div class="flex flex-col my-4 md:my-0 w-full md:w-[10%]">
-        <p class="old-font text-xl font-bold">Contact</p>
+        <p id="contact" class="old-font text-xl font-bold">Contact</p>
         <p class="ibm-font">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
